@@ -1,0 +1,13 @@
+{
+  "name": "keep-mac-awake",
+  "displayName": "Keep Mac Awake",
+  "version": "1.0.0",
+  "description": "Prevents your Mac from sleeping while Cursor agents or subagents are active, using caffeinate with a safe refcount.",
+  "author": {
+    "name": "Oleksandr Morozov"
+  },
+  "license": "MIT",
+  "keywords": ["hooks", "mac", "caffeinate", "sleep", "agents"],
+  "category": "productivity",
+  "hooks": "hooks/hooks.json"
+}

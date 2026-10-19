@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [{ "command": "./scripts/wake-start.sh" }],
+    "subagentStart": [{ "command": "./scripts/wake-start.sh" }],
+    "subagentStop": [{ "command": "./scripts/wake-stop.sh" }],
+    "sessionEnd": [{ "command": "./scripts/wake-stop.sh" }],
+    "stop": [{ "command": "./scripts/wake-stop.sh" }]
+  }
+}
